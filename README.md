@@ -1,5 +1,6 @@
 # java-student-management-system
-Simple Student Management System using Java, JDBC and MySQL
+
+Simple Student Management System using Java, JDBC and MySQL.
 
 ## Technologies Used
 - Java
@@ -16,6 +17,7 @@ Simple Student Management System using Java, JDBC and MySQL
 Database Name: student_management
 
 Table: students
+
 Columns:
 - student_id
 - name
@@ -23,9 +25,12 @@ Columns:
 - course
 - email
 
+## Database Setup
+Run the file `database.sql` in MySQL to create the database and table automatically.
+
 ## How to Run
 1. Install MySQL
-2. Create database: student_management
-3. Create the students table
+2. Create database: `student_management`
+3. Run the `database.sql` file
 4. Update username and password in the Java code
 5. Run the program
